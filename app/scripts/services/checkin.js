@@ -17,7 +17,6 @@ appApp.factory('checkin', function() {
         {name: 'walking dog', img: 'noun_project_564.svg'}
       ];
 
-
       return activities;
     }
   };
