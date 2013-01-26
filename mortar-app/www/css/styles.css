@@ -1,0 +1,12 @@
+ul.activities-picker li {
+  display: inline;
+  list-style-type: none;
+}
+
+ul.activities-picker li div.activity {
+  display: inline;
+}
+
+ul.activities-picker li div.activity .activity-name {
+  display: inline;
+}
