@@ -1,0 +1,21 @@
+<section role="region">
+  <header>
+    <h1>
+    I Do Here
+    </h1>
+  </header>
+</section>
+
+<section data-type="list">
+  <header>What are you doing?</header>
+    <ul>
+      <li ng-repeat="activity in activities">
+        <img class="activity" src="/images/activities/{{activity.img}}" />
+        <span class="activity-name">
+          {{activity.name}}
+        </span>
+      </li>
+    </ul>
+</section>
+
+

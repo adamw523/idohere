@@ -1,0 +1,55 @@
+ul.activities-picker li {
+  display: inline;
+  list-style-type: none;
+}
+
+ul.activities-picker li div.activity {
+  display: inline;
+}
+
+ul.activities-picker li div.activity .activity-name {
+  display: inline;
+}
+
+@font-face {
+    font-family: 'mozTT';
+    src: url('../fonts/moztt_regular-webfont.eot');
+    src: url('../fonts/moztt_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moztt_regular-webfont.woff') format('woff'),
+         url('../fonts/moztt_regular-webfont.ttf') format('truetype'),
+         url('../fonts/moztt_regular-webfont.svg#mozttregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mozTT';
+    src: url('../fonts/moztt_light-webfont.eot');
+    src: url('../fonts/moztt_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moztt_light-webfont.woff') format('woff'),
+         url('../fonts/moztt_light-webfont.ttf') format('truetype'),
+         url('../fonts/moztt_light-webfont.svg#moztt_lightregular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mozTT';
+    src: url('../fonts/moztt_medium-webfont.eot');
+    src: url('../fonts/moztt_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moztt_medium-webfont.woff') format('woff'),
+         url('../fonts/moztt_medium-webfont.ttf') format('truetype'),
+         url('../fonts/moztt_medium-webfont.svg#moztt_mediumregular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+  font-family: 'mozTT';
+  margin: 0;
+}
+
+img.activity {
+  max-width: 50px;
+  max-height: 50px;
+
+}
+
