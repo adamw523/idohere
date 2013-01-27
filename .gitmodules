@@ -1,3 +1,0 @@
-[submodule "mortar-app/www/BB"]
-	path = mortar-app/www/BB
-	url = git@github.com:mozilla-b2g/Gaia-UI-Building-Blocks.git
