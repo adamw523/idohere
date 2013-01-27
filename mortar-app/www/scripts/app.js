@@ -7,6 +7,10 @@ var appApp = angular.module('appApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/checkin_map', {
+        templateUrl: 'views/checkin_map.html',
+        controller: 'CheckinMapCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

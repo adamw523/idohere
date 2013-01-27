@@ -15,11 +15,18 @@
     <link rel="stylesheet" type="text/css" href="/shared/style/input_areas.css">
     <link rel="stylesheet" type="text/css" href="/shared/style/status.css">
     <link rel="stylesheet" type="text/css" href="/shared/style/switches.css">
+    <link rel="stylesheet" type="text/css" href="/shared/style_unstable/drawer.css">
     <link rel="stylesheet" type="text/css" href="/shared/style_unstable/lists.css">
+    <link rel="stylesheet" type="text/css" href="/shared/style_unstable/progress_activity.css">
+    <link rel="stylesheet" type="text/css" href="/shared/style_unstable/scrolling.css">
+    <link rel="stylesheet" type="text/css" href="/shared/style_unstable/seekbars.css">
+    <link rel="stylesheet" type="text/css" href="/shared/style_unstable/tabs.css">
+    <link rel="stylesheet" type="text/css" href="/shared/style_unstable/toolbars.css">
 
     <!-- Place favicon.ico in the root directory -->
   </head>
-  <body ng-app="appApp" role="application">
+  
+  <body role="application" ng-app="appApp">
     <div ng-view></div>
     <!-- Use this installation button to install locally without going
          through the marketpace (see app.js) -->
@@ -30,26 +37,8 @@
     <script src="scripts/vendor/angular.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/checkin_map.js"></script>
     <script src="scripts/services/checkin.js"></script>
 
-    <p>
-      Welcome to your awesome web app. This was created from the
-      <a href="https://github.com/mozilla/mortar-app-stub">mortar-app-stub</a>
-      template, one of the
-      <a href="https://github.com/mozilla/mortar">mortar templates</a>.
-    </p>
-
-    <p>
-      <a href="https://developer.mozilla.org/en-US/docs/Apps/App_templates#What_Now.3F">
-        What now?</a>
-    </p>
-    
-    <!-- Using require.js, a module system for javascript, include the
-         js files. This loads "main.js", which in turn can load other
-         files, all handled by require.js:
-         http://requirejs.org/docs/api.html#jsfiles -->
-    <script type="text/javascript"
-            data-main="js/init.js"
-            src="js/lib/require.js"></script>
   </body>
 </html>

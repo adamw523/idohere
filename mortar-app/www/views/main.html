@@ -6,16 +6,17 @@
   </header>
 </section>
 
+
 <section data-type="list">
   <header>What are you doing?</header>
-    <ul>
-      <li ng-repeat="activity in activities">
+  <ul class="compact">
+    <li ng-repeat="activity in activities">
+      <button ng-click="chooseActivity(activity)">
         <img class="activity" src="/images/activities/{{activity.img}}" />
-        <span class="activity-name">
-          {{activity.name}}
-        </span>
-      </li>
-    </ul>
+        {{activity.name}}
+      </button>
+    </li>
+  </ul>
 </section>
 
 

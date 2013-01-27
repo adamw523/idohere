@@ -1,7 +1,9 @@
-'use strict';
-
-appApp.controller('MainCtrl', function($scope, checkin) {
+appApp.controller('MainCtrl', function($scope, checkin, $location) {
   $scope.activities = checkin.activities();
-  console.log(checkin, $scope.activies);
+
+  $scope.chooseActivity = function(activity) {
+    checkin.activity = activity;
+    $location.url('/checkin_map');
+  }
 
 });
